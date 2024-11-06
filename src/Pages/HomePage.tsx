@@ -14,7 +14,7 @@ const Portfolio = lazy(() => import('@components/common/Portfolio/Portfolio'));
 
 export const ThemeContext = createContext('light');
 function HomePage() {
-  const [theme, setTheme] = useLocalStorage<string>('theme' ? 'dark' : 'light');
+  const [theme, setTheme] = useLocalStorage<string>('light');
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
