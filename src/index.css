@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: rgba(223, 138, 43, 1);
+  --secondary-color: #58a65c;
+  --hover-color: #2e6c43;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(223, 138, 43, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+}
+
+[data-theme='light'] {
+  --background-color: rgb(236, 247, 197);
+  --color: #000;
+  --menu-color: #8f6a47;
+}
+
+[data-theme='dark'] {
+  --background-color: #1f1f1f;
+  --color: #fff;
+  --menu-color: #392c20;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  scroll-behavior: smooth;
+  font-family: third;
+  transition: .3s ease;
+}
+
+
+@font-face {
+  font-family: main;
+  src: url('./assets/Fonts/Meow_Script/MeowScript-Regular.ttf');
+}
+
+@font-face {
+  font-family: second;
+  src: url('./assets/Fonts/Homemade_Apple/HomemadeApple-Regular.ttf');
+}
+
+@font-face {
+  font-family: third;
+  src: url('./assets/Fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
+}
+
+@font-face {
+  font-family: fourth;
+  src: url('./assets/Fonts/Cookie/Cookie-Regular.ttf');
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: var(--color);
+  font-family: third;
+  transition: .3s;
+  position: relative;
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color);
+}
+
+ul {
+  list-style: none;
+}
+
+a.active {
+  color: var(--main-color);
+  position: relative;
+}
+
+a.active::after,
+a::after {
+  content: '';
+  height: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  transition: .3s ease;
+  left: 0;
+}
+
+a.active::after {
+  width: 70%;
+  display: block;
+}
+
+a::after {
+  width: 0;
+}
+
+a:hover::after {
+  width: 70%;
+}
+
+a.active:hover::after {
+  width: 100%;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+a:hover::after {
+  display: block;
+  width: 70%;
+}
+
+@media (max-width:767px) {
+  a {
+    color: var(--color);
+  }
+
+  a.active {
+    color: var(--main-color);
+  }
+
+
+  a:hover {
+    color: var(--main-color);
+  }
+}

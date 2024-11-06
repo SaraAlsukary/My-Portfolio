@@ -1,0 +1,24 @@
+.up {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+    animation: moveUp ease 0.5s infinite alternate;
+    z-index: 1000;
+}
+
+@keyframes moveUp {
+
+    0%,
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.goTop {
+    display: block;
+}
+
+.goTopHidden {
+    display: none;
+}

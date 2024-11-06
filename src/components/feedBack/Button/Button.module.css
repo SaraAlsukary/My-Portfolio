@@ -1,0 +1,12 @@
+.btn {
+    border: none;
+    border-radius: 12px;
+    transition: .3s ease;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: var(--hover-color);
+}

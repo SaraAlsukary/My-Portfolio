@@ -1,0 +1,23 @@
+.contactContainer {
+
+    padding: 100px 0;
+    width: 100vw;
+    gap: 10px;
+}
+
+
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 40px;
+
+}
+
+.links a::after,
+.links a::before {
+    display: none;
+}

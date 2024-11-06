@@ -1,0 +1,26 @@
+.logo h1 {
+    font-family: fourth;
+    color: var(--main-color);
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    top: 16px;
+    animation: opacityMove 3.5s linear infinite alternate;
+}
+
+@keyframes opacityMove {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}

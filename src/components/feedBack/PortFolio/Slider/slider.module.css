@@ -1,0 +1,61 @@
+.slider {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.navigationBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview {
+    margin: 0 2px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 3px solid gray;
+}
+
+.preview.active {
+    border-color: skyblue;
+}
+
+.navigationNextPrev .nextPrev {
+    position: absolute;
+    top: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    transform: translateY(-100%);
+    z-index: 10000;
+}
+
+.next {
+    right: -100px;
+}
+
+.prev {
+    left: -100px;
+}
+
+.imageList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imageList>div {
+    flex: 1 33%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.image-list>div img {
+    width: 100%;
+    border: 3px solid gray;
+}
+
+.image-list>div.active img {
+    border-color: skyblue;
+}

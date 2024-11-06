@@ -1,0 +1,9 @@
+ .cloudImg {
+     width: 100px;
+     height: 100px;
+ }
+
+ .cloudImg img {
+     width: 100%;
+     height: 100%;
+ }
