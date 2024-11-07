@@ -38,6 +38,17 @@
     left: -100px;
 }
 
+@media (max-width:800px) {
+
+    .next {
+        right: -40px;
+    }
+
+    .prev {
+        left: -40px;
+    }
+}
+
 .imageList {
     display: flex;
     align-items: center;

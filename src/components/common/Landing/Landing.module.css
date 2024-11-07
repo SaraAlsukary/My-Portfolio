@@ -121,7 +121,7 @@
     z-index: -1;
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:801px) and (max-width:991px) {
     .landing {
         padding-left: 20px;
         padding-right: 20px;
@@ -160,7 +160,7 @@
     /* .landing .text */
 }
 
-@media (max-width:767px) {
+@media (max-width:800px) {
     .landing {
         flex-direction: column-reverse;
         padding-left: 0;
@@ -172,6 +172,8 @@
         width: 300px;
         height: 300px;
         margin-bottom: 40px;
+        position: relative;
+        left: -12px;
     }
 
     .landing .pic::after,

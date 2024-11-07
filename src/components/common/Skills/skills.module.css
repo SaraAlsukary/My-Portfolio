@@ -73,6 +73,13 @@
     }
 }
 
+@media (max-width:800px) {
+    .about .pic {
+        width: 300px;
+        height: 450px;
+    }
+}
+
 .skillItemBox .skillHeader {
     position: relative;
 }

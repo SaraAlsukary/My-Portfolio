@@ -31,10 +31,10 @@ const Slider = ({ images, active, setActive }: TSlider) => {
             <div className={navigation}>
                 <div className={navigationNextPrev}>
                     <div className={`${nextPrev} ${prev}`} onClick={onPrev}>
-                        <LeftAngle style={{ width: '50px', height: '50px' }} className={fa} />
+                        <LeftAngle style={{ width: '30px', height: '30px' }} className={fa} />
                     </div>
                     <div className={`${nextPrev} ${next}`} onClick={onNext}>
-                        <RightAngle style={{ width: '50px', height: '50px' }} className={fa} />
+                        <RightAngle style={{ width: '30px', height: '30px' }} className={fa} />
                     </div>
                 </div>
             </div>

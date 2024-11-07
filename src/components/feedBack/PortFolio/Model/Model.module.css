@@ -22,6 +22,13 @@
     background-color: var(--secondary-color);
 }
 
+@media (max-width:800px) {
+    .modalWrapper {
+        width: 300px;
+        max-width: 300px;
+    }
+}
+
 .modalHeader {
     display: flex;
     align-items: center;

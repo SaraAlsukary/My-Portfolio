@@ -34,7 +34,7 @@
     z-index: 1210;
 }
 
-@media (max-width:767px) {
+@media (max-width:800px) {
 
     .headerContainer .burger {
         display: block;
@@ -43,7 +43,6 @@
     .headerContainer .cont nav {
         position: absolute;
         width: 100%;
-        height: 100vh;
         z-index: 1200;
         left: 0;
         top: 0;
@@ -53,7 +52,7 @@
     .headerContainer nav ul {
         opacity: 0;
         transition: 1s ease;
-        transform: translateY(-3px);
+        transform: translateY(-344px);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -62,15 +61,15 @@
 
     .headerContainer nav ul.show {
         opacity: 1;
-        transform: translateY(5px);
+        transform: translateY(-6px);
         background-color: var(--menu-color);
-        border-radius: 16px;
+        border-radius: 7px;
     }
 
     .headerContainer nav ul li {
         width: 100%;
         text-align: center;
-        padding: 50px;
+        padding: 20px;
     }
 }
 

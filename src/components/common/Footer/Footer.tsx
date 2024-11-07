@@ -14,7 +14,7 @@ const Footer = () => {
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
                 className={footerContainer}>
-                <p>Made width <Love style={{ width: "20px", height: '20px' }} /> <span>Sara </span> &copy; 2024 all rights reserved</p>
+                <p>Made width <Love style={{ width: "20px", height: '20px' }} /> <span>Sara </span></p>
 
             </motion.footer>
         </Container>

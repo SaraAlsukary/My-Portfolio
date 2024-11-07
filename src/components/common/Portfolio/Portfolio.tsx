@@ -5,11 +5,11 @@ import cyborg from '@assets/imgs/Portfolio/Cyborg.png';
 import BooksCorner from '@assets/imgs/Portfolio/BooksCorner.png';
 import todolist from '@assets/imgs/Portfolio/todolist.png';
 import binko from '@assets/imgs/Portfolio/binko.png';
-import Modal from "../../feedBack/PortFolio/Model/Model";
+import Modal from "@components/feedBack/PortFolio/Model/Model";
 import Slider from "@components/feedBack/PortFolio/Slider/Slider";
 import { Container } from "react-bootstrap";
 import style from './Portfolio.module.css';
-import { HeadingTitle } from '@components/feedBack';
+import { HeadingTitle } from '@components/feedBack/index';
 // motion
 import { motion } from 'framer-motion'
 import { fadeIn } from '@utils/variants';
