@@ -64,6 +64,13 @@
     opacity: 1;
 }
 
+@media (max-width:800px) {
+    .imageItem .portfolioInfo h4 {
+        font-size: 12px;
+
+    }
+}
+
 .imageItem .portfolioInfo .icon {
     height: 40px;
     width: 40px;

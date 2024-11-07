@@ -39,7 +39,7 @@ const Portfolio = () => {
         {
             image_url: cyborg,
             caption: "Cyborg is a website for downloading games",
-            url: 'Cyborg'
+            url: 'https://github.com/SaraAlsukary/Cybrog'
 
         },
         {
