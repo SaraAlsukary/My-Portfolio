@@ -22,30 +22,30 @@ const Portfolio = () => {
         {
             image_url: pets,
             caption: "Pets Home is an e-commerce for pets",
-            url: 'PetsHome'
+            url: 'https://saraalsukary.github.io/Pets-Home/'
         },
         {
             image_url:
                 BooksCorner, caption: "Books Corner is a website for downloading books",
-            url: 'BooksCorner'
+            url: 'https://saraalsukary.github.io/BooksCorner/'
 
         },
         {
             image_url: todolist,
             caption: "TodoList app",
-            url: 'TodoList'
+            url: 'https://saraalsukary.github.io/TodoList/'
 
         },
         {
             image_url: cyborg,
             caption: "Cyborg is a website for downloading games",
-            url: 'https://github.com/SaraAlsukary/Cybrog'
+            url: 'https://saraalsukary.github.io/Cybrog/'
 
         },
         {
             image_url: binko,
             caption: "Binko is a Books Community",
-            url: 'BinkoWeb'
+            url: 'https://saraalsukary.github.io/Binko/'
 
         }
     ];

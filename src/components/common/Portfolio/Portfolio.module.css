@@ -65,9 +65,8 @@
 }
 
 @media (max-width:800px) {
-    .imageItem .portfolioInfo h4 {
-        font-size: 12px;
-
+    .imageItem:hover .portfolioInfo h4 {
+        opacity: 0;
     }
 }
 
