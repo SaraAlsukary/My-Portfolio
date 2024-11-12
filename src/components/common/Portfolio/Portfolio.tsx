@@ -19,11 +19,7 @@ const Portfolio = () => {
     const [active, setActive] = useState(0);
 
     const images = [
-        {
-            image_url: pets,
-            caption: "Pets Home is an e-commerce for pets",
-            url: 'https://saraalsukary.github.io/Pets-Home/'
-        },
+
         {
             image_url:
                 BooksCorner, caption: "Books Corner is a website for downloading books",
