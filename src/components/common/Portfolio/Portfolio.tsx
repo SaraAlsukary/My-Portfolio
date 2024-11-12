@@ -1,6 +1,5 @@
 import Search from '@assets/Svgs/portfolio/search.svg?react';
 import { useState } from "react";
-import pets from '@assets/imgs/Portfolio/PetsHome.png';
 import cyborg from '@assets/imgs/Portfolio/Cyborg.png';
 import BooksCorner from '@assets/imgs/Portfolio/BooksCorner.png';
 import todolist from '@assets/imgs/Portfolio/todolist.png';
