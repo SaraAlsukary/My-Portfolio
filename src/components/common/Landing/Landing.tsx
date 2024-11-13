@@ -13,13 +13,6 @@ import { useContext } from 'react';
 import { ThemeContext } from 'src/Pages/HomePage';
 const { text, pic, arrow, landing } = styles;
 const Landing = () => {
-    // const downloadFile = () => {
-    //     const fileUrl = `${process.env.PUBLIC_URL}/cv.pdf`;
-    //     const link = document.createElement("a");
-    //     link.href = fileUrl;
-    //     link.download = "cv.pdf";
-    //     link.click();
-    // };
     const theme = useContext(ThemeContext);
     return (
         <Container>
