@@ -8,5 +8,8 @@ export default defineConfig({
   plugins: [react({
     jsxRuntime: 'automatic' // Add this line
   }), viteTsconfigPaths(), svgrPlugin()],
-  base: '/My-Portfolio/'
+  base: '/My-Portfolio/',
+  define: {
+    'process.env': {}
+  }
 });
