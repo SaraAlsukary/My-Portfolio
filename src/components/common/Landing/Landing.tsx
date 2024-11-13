@@ -12,6 +12,13 @@ import { useContext } from 'react';
 import { ThemeContext } from 'src/Pages/HomePage';
 const { text, pic, arrow, landing } = styles;
 const Landing = () => {
+    const downloadFile = () => {
+        const fileUrl = '${ process.env.PUBLIC_URL }/cv.pdf';
+        const link = document.createElement("a");
+        link.href = fileUrl;
+        link.download = "cv.pdf";
+        link.click();
+    };
     const theme = useContext(ThemeContext);
     return (
         <Container>
@@ -26,7 +33,7 @@ const Landing = () => {
                     <h2>Hi, I'm <span>Sara Alsukary</span></h2>
                     <p>Creative Frontend Developer</p>
                     <p>Feel free to contact me anytime</p>
-                    <a href="#"><Button>Download CV</Button></a>
+                    <Button onClick={downloadFile}>Download CV</Button>
                 </div>
 
                 <div className={arrow}>
